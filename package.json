@@ -1,0 +1,35 @@
+{
+  "name": "learningexpress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.ts",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.11",
+    "@types/node": "^14.14.32",
+    "axios": "^0.23.0",
+    "cors": "^2.8.5",
+    "cross-fetch": "^3.1.4",
+    "ecommerce_client": "file:../ecommerce_client",
+    "express": "^4.17.1",
+    "firebase": "^9.1.1",
+    "mongodb": "^4.1.2",
+    "razorpay": "^2.0.7",
+    "stripe": "^8.181.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.3"
+  }
+}
